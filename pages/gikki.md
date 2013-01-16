@@ -9,15 +9,14 @@ Gikki!
 
 hallo ilona
 
-
-online editiert: 
+online editiert:
 
 # header1
 ## header 2
 
 - a
 - list
-- ...
+- keine punkte
 
 bla
 
