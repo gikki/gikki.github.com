@@ -1,5 +1,7 @@
 <div class="page-header">
-  <h1>{{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h1>
+  <h1>{{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}
+   <small><a id = "edit_link" href = "{{site.github_edit | append: page.url | replace_first: 'html', 'md'}}">[Edit]</a></small>
+  </h1>
 </div>
 
 <div class="row">
